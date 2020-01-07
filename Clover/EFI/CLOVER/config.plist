@@ -112,7 +112,7 @@
 					<key>Comment</key>
 					<string>change EC0 to EC</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>RUMwXw==</data>
 					<key>Replace</key>
@@ -120,39 +120,9 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change H_EC to EC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>SF9FQw==</data>
-					<key>Replace</key>
-					<data>RUNfXw==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change ECDV to EC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>RUNEVg==</data>
-					<key>Replace</key>
-					<data>RUNfXw==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Fix AsRock Z390 BIOS DSDT Device(RTC) bug</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>oAqTU1RBUwE=</data>
-					<key>Replace</key>
-					<data>oAqRCv8L//8=</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change _OSI to XOSI</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>X09TSQ==</data>
 					<key>Replace</key>
@@ -160,13 +130,13 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change GFX0 to IGPU</string>
+					<string>change HDAS to HDEF</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
-					<data>R0ZYMA==</data>
+					<data>SERBUw==</data>
 					<key>Replace</key>
-					<data>SUdQVQ==</data>
+					<data>SERFRg==</data>
 				</dict>
 			</array>
 		</dict>
@@ -209,7 +179,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>#debug=0x100 dart=0 keepsyms=1 -no_compat_check slide=0 -lilubetaall brcmfx-country=#a brcmfx-driver=2</string>
+		<string>#debug=0x100 #dart=0 #keepsyms=1 slide=0 -lilubetaall brcmfx-country=#a #brcmfx-driver=2</string>
 		<key>CustomLogo</key>
 		<string>Apple</string>
 		<key>DefaultVolume</key>
@@ -229,6 +199,15 @@
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
+	<key>BootGraphics</key>
+	<dict>
+		<key>EFILoginHiDPI</key>
+		<integer>1</integer>
+		<key>UIScale</key>
+		<integer>2</integer>
+		<key>flagstate</key>
+		<integer>1</integer>
+	</dict>
 	<key>CPU</key>
 	<dict>
 		<key>UseARTFrequency</key>
@@ -241,7 +220,7 @@
 			<key>AFGLowPowerState</key>
 			<false/>
 			<key>Inject</key>
-			<integer>11</integer>
+			<string>Detect</string>
 			<key>ResetHDA</key>
 			<false/>
 		</dict>
@@ -249,19 +228,6 @@
 		<false/>
 		<key>Properties</key>
 		<dict>
-			<key>#PciRoot(0x0)/Pci(0x1d,0x5)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>WLAN</string>
-				<key>compatible</key>
-				<string>pci14e4,43a3</string>
-				<key>device_type</key>
-				<string>Airport Extreme</string>
-				<key>model</key>
-				<string>DW1820A (BCM4350) 802.11ac Wireless</string>
-				<key>name</key>
-				<string>Airport</string>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
@@ -570,7 +536,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C028531084NHWVP1H</string>
+		<string>C02742270J9HWVP1F</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -602,9 +568,9 @@
 		<key>ProductName-Comment</key>
 		<string>Using Haswell MacBookAir6,2 until Clover has support for KabyLake identifiers</string>
 		<key>SerialNumber</key>
-		<string>C02Y10KDHV29</string>
+		<string>C02VKSZYHV29</string>
 		<key>SmUUID</key>
-		<string>44BCAD86-C2EA-47D1-B74F-52266DA70991</string>
+		<string>0CB81C84-A975-4A78-B32E-952B3A80D22D</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
@@ -613,7 +579,7 @@
 		<key>#BacklightLevel</key>
 		<integer>0</integer>
 		<key>CustomUUID</key>
-		<string>136A85D7-FEA3-49A5-958B-0FE88D0EADDB</string>
+		<string>5A4E62F5-6503-4534-A059-CA3D3791EE55</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 		<key>InjectSystemID</key>
