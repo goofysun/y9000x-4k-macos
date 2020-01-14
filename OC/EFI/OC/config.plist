@@ -836,6 +836,8 @@
 		<dict>
 			<key>AllowNvramReset</key>
 			<true/>
+			<key>AllowSetDefault</key>
+			<false/>
 			<key>AuthRestart</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
@@ -1031,6 +1033,10 @@
 			<string>FwRuntimeServices.efi</string>
 			<string>VBoxHfs.efi</string>
 			<string>UsbKbDxe.efi</string>
+			<string>AppleUsbKbDxe.efi</string>
+			<string>NvmExpressDxe.efi</string>
+			<string>UsbKbDxe.efi</string>
+			<string>XhciDxe.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
