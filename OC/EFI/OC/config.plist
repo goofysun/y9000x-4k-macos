@@ -102,6 +102,14 @@
 				<key>Path</key>
 				<string>SSDT-ALS0.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-TB3.aml</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array/>
@@ -772,11 +780,15 @@
 			<true/>
 			<key>AppleXcpmExtraMsrs</key>
 			<false/>
+			<key>AppleXcpmForceBoost</key>
+			<false/>
 			<key>CustomSMBIOSGuid</key>
 			<false/>
 			<key>DisableIoMapper</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
+			<false/>
+			<key>IncreasePciBarSize</key>
 			<false/>
 			<key>LapicKernelPanic</key>
 			<false/>
@@ -910,6 +922,8 @@
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
+		<false/>
+		<key>LegacyOverwrite</key>
 		<false/>
 		<key>LegacySchema</key>
 		<dict>

@@ -112,7 +112,7 @@
 					<key>Comment</key>
 					<string>change EC0 to EC</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>RUMwXw==</data>
 					<key>Replace</key>
@@ -122,7 +122,7 @@
 					<key>Comment</key>
 					<string>change _OSI to XOSI</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>X09TSQ==</data>
 					<key>Replace</key>
@@ -132,7 +132,7 @@
 					<key>Comment</key>
 					<string>change HDAS to HDEF</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>SERBUw==</data>
 					<key>Replace</key>
