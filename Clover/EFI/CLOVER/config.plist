@@ -96,28 +96,18 @@
 				<key>FixHPET</key>
 				<true/>
 				<key>FixIPIC</key>
-				<true/>
+				<false/>
 				<key>FixRTC</key>
 				<true/>
 				<key>FixRegions</key>
 				<true/>
 				<key>FixShutdown</key>
-				<true/>
+				<false/>
 				<key>FixTMR</key>
 				<true/>
 			</dict>
 			<key>Patches</key>
 			<array>
-				<dict>
-					<key>Comment</key>
-					<string>change EC0 to EC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>RUMwXw==</data>
-					<key>Replace</key>
-					<data>RUNfXw==</data>
-				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change _OSI to XOSI</string>
@@ -179,9 +169,9 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>#debug=0x100 #dart=0 #keepsyms=1 slide=0 -lilubetaall brcmfx-country=#a #brcmfx-driver=2</string>
+		<string>#debug=0x100 #dart=0 #keepsyms=1 slide=0 -lilubetaall brcmfx-country=#a #brcmfx-driver=2 alcid=31</string>
 		<key>CustomLogo</key>
-		<string>Apple</string>
+		<false/>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Legacy</key>
@@ -189,13 +179,13 @@
 		<key>Log</key>
 		<false/>
 		<key>NeverHibernate</key>
-		<true/>
+		<false/>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>5</integer>
+		<integer>1</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
@@ -205,11 +195,11 @@
 		<integer>1</integer>
 		<key>UIScale</key>
 		<integer>2</integer>
-		<key>flagstate</key>
-		<integer>1</integer>
 	</dict>
 	<key>CPU</key>
 	<dict>
+		<key>HWPEnable</key>
+		<true/>
 		<key>UseARTFrequency</key>
 		<false/>
 	</dict>
@@ -261,8 +251,6 @@
 				<data>AQAAAA==</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAgA==</data>
-				<key>model</key>
-				<string>Intel UHD Graphics 630 (Mobile)</string>
 			</dict>
 		</dict>
 		<key>SetIntelBacklight</key>
@@ -308,7 +296,6 @@
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
-			<string>Recovery</string>
 			<string>Windows</string>
 		</array>
 		<key>Mouse</key>
@@ -327,6 +314,8 @@
 			<key>Tool</key>
 			<true/>
 		</dict>
+		<key>ScreenResolution</key>
+		<string>3840×2160</string>
 		<key>Theme</key>
 		<string>Bootcamp4k</string>
 	</dict>
@@ -579,7 +568,7 @@
 		<key>#BacklightLevel</key>
 		<integer>0</integer>
 		<key>CustomUUID</key>
-		<string>5A4E62F5-6503-4534-A059-CA3D3791EE55</string>
+		<string>C900579D-1882-5CFF-AE25-773293037FA1</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 		<key>InjectSystemID</key>
