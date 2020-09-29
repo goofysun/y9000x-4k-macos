@@ -309,7 +309,7 @@
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,31,3</string>
 				<key>alc-delay</key>
-				<integer>500</integer>
+				<integer>1000</integer>
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>hda-gfx</key>
@@ -545,7 +545,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -1150,9 +1150,9 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>igfxagdc=0  -v -brcmfxbeta alcid=31</string>
+				<string>igfxagdc=0  -v -brcmfxbeta</string>
 				<key>csr-active-config</key>
-				<data>5wMAAA==</data>
+				<data>dwAAAA==</data>
 				<key>prev-lang:kbd</key>
 				<data>emgtSGFuczoyNTI=</data>
 			</dict>
