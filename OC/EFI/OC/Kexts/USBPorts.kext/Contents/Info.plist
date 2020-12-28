@@ -240,6 +240,13 @@
 						<key>port</key>
 						<data>EgAAAA==</data>
 					</dict>
+					<key>SS03</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>EwAAAA==</data>
+					</dict>
 				</dict>
 			</dict>
 			<key>model</key>
